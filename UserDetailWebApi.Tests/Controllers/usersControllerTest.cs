@@ -26,7 +26,7 @@ namespace UserDetailWebApi.Tests.Controllers
         [TestMethod]
         public void _AddUser()
         {
-            //Before unit test start Please Change User data 
+            //Before unit  test start Please Change User data 
             Users users = new Users();
             users.name = "krishna";
             users.email = "K@test.com";
@@ -41,7 +41,7 @@ namespace UserDetailWebApi.Tests.Controllers
         [TestMethod]
         public void _UpdateUser()
         {
-            //Before unit test start Please Change User data 
+            //Before unit  test start Please Change User data 
             usersController controller = new usersController();
             Users users = new Users();
             users.name = "jasmin";
